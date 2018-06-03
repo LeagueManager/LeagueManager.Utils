@@ -10,4 +10,9 @@ namespace LeagueManager.Utils
         public int loses { get; set; }
         public int rank { get; set; }
     }
-}
+    public class User
+    {
+        public string Name { get; set; }
+        public Team Team { get; set; }
+    }
+}   
